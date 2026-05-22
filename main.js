@@ -65,3 +65,16 @@ async function handleSubmit(e) {
     alert('Something went wrong. Please try again or email tams.ballot@gmail.com directly.');
   }
 }
+
+async function loadSection(id, file) {
+  const res = await fetch(file);
+  const html = await res.text();
+  document.getElementById(id).innerHTML = html;
+}
+
+loadSection("about-section", "sections/about.html");
+loadSection("dates-section", "sections/dates.html");
+loadSection("committees-section", "sections/committees.html");
+loadSection("register-section", "sections/register.html");
+loadSection("papers-section", "sections/papers.html");
+loadSection("faq-section", "sections/faq.html");
