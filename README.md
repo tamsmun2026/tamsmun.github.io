@@ -12,4 +12,4 @@ hosted at the University of North Texas, Denton, TX.
 - **Contact:** ballot.tams@gmail.com
 
 ## About
-Built and maintained by the TAMS MUN 2026 Vice President.
+Built and maintained by Jessica Luo.
