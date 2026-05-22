@@ -203,13 +203,13 @@ h1 em {
 .hero-image {
   position: absolute;
   right: 4rem;
-  top: 55%;
+  top: 50%;
   transform: translateY(-50%);
   width: 420px;
   max-width: 38vw;
-  opacity: 0.9;
-  z-index: 1;
-  object-fit: contain;
+  opacity: 1;
+  z-index: 5;
+  border: 3px solid red;
 }
 /* ── SECTION BASE ── */
 section { position: relative; z-index: 1; }
