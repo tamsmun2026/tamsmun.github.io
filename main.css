@@ -83,20 +83,15 @@ nav {
 .hero-bg {
   position: absolute;
   inset: 0;
-
   background:
     linear-gradient(
       to right,
-      rgba(6,16,30,0.95) 0%,
+      rgba(6,16,30,0.97) 0%,
       rgba(6,16,30,0.88) 45%,
       rgba(6,16,30,0.55) 70%,
       rgba(6,16,30,0.25) 100%
     ),
-    url('images/modelun.jpg');
-
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
+    url("./images/modelun.jpg") center/cover no-repeat;
 }
 .hero-globe {
   position: absolute; right: -5%; top: 50%; transform: translateY(-50%);
