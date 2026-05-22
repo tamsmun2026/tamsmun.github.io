@@ -181,6 +181,21 @@ h1 em {
   font-size: 0.78rem; letter-spacing: 0.12em;
   text-transform: uppercase; color: var(--muted);
 }
+.hero-stats {
+  position: relative; margin-top: 5rem;
+  display: flex; gap: 3.5rem; flex-wrap: wrap;
+}
+
+.hero-image {
+  position: absolute;
+  right: 5%;
+  bottom: 0;
+  width: 500px;
+  max-width: 45vw;
+  opacity: 0.25;
+  z-index: 1;
+  pointer-events: none;
+}
 
 /* ── SECTION BASE ── */
 section { position: relative; z-index: 1; }
