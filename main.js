@@ -72,9 +72,17 @@ async function loadSection(id, file) {
   document.getElementById(id).innerHTML = html;
 }
 
-loadSection("about-section", "sections/about.html");
-loadSection("dates-section", "sections/dates.html");
-loadSection("committees-section", "sections/committees.html");
-loadSection("register-section", "sections/register.html");
-loadSection("papers-section", "sections/papers.html");
-loadSection("faq-section", "sections/faq.html");
+async function loadAllSections() {
+  await loadSection("about-section", "sections/about.html");
+  await loadSection("dates-section", "sections/dates.html");
+  await loadSection("committees-section", "sections/committees.html");
+  await loadSection("register-section", "sections/register.html");
+  await loadSection("papers-section", "sections/papers.html");
+  await loadSection("faq-section", "sections/faq.html");
+
+  document.querySelectorAll('.fade-up').forEach(el => {
+    el.classList.add('visible');
+  });
+}
+
+loadAllSections();
