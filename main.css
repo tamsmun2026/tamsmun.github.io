@@ -93,15 +93,6 @@ nav {
     ),
     url("./images/modelun.jpg") center/cover no-repeat;
 }
-
-.hero-tag {
-  font-family: 'DM Mono', monospace;
-  font-size: 0.72rem; letter-spacing: 0.2em;
-  text-transform: uppercase; color: var(--gold);
-  margin-bottom: 1.5rem;
-  display: flex; align-items: center; gap: 0.8rem;
-  position: relative;
-}
 .hero-tag::before {
   content: ''; display: block;
   width: 32px; height: 1px; background: var(--gold);
