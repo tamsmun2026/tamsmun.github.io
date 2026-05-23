@@ -178,21 +178,6 @@ h2 {
   color: #b0bfcc; line-height: 1.85; font-size: 1rem;
   margin-bottom: 1.2rem;
 }
-.about-highlights { display: flex; flex-direction: column; gap: 1.2rem; }
-.highlight-card {
-  border: 1px solid var(--border); padding: 1.5rem 1.8rem;
-  background: rgba(201, 168, 76, 0.03);
-  transition: border-color 0.3s, background 0.3s;
-}
-.highlight-card:hover {
-  border-color: rgba(201, 168, 76, 0.5);
-  background: rgba(201, 168, 76, 0.06);
-}
-.highlight-card h4 {
-  font-family: 'Inter', sans-serif;
-  font-size: 1.05rem; color: var(--gold); margin-bottom: 0.4rem;
-}
-.highlight-card p { color: var(--muted); font-size: 0.9rem; line-height: 1.6; }
 
 /* ── TIMELINE / DATES ── */
 #dates { background: var(--deep); }
