@@ -7,18 +7,18 @@
 
 /* ── DESIGN TOKENS ── */
 :root {
-  --navy:       #14211b;
-  --deep:       #0d1713;
+  --navy:       #1f3329;
+  --deep:       #17271f;
 
-  --green:      #8fb59c;
-  --green-light:#b7d1bf;
+  --green:      #89b39a;
+  --green-light:#b7d5c2;
 
-  --ivory:      #edf3ef;
+  --ivory:      #f3f7f4;
   --white:      #ffffff;
 
-  --muted:      #9cad9f;
+  --muted:      #a0b2a7;
 
-  --border:     rgba(143, 181, 156, 0.18);
+  --border:     rgba(137, 179, 154, 0.18);
 }
 /* ── RESET ── */
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
