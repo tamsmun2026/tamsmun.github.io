@@ -342,12 +342,7 @@ h2 {
 #papers { background: var(--navy); }
 .papers-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 3rem; }
 .paper-step { display: flex; gap: 1.5rem; align-items: flex-start; }
-.step-num {
-  font-family: 'Inter', sans-serif;
-  font-size: 2.5rem; font-weight: 900;
-  color: rgba(201, 168, 76, 0.2); line-height: 1;
-  flex-shrink: 0; width: 50px;
-}
+
 .step-text h4 {
   font-family: 'Inter', sans-serif;
   font-size: 1.1rem; color: var(--ivory); margin-bottom: 0.5rem;
