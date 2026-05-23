@@ -311,6 +311,16 @@ h2 {
   transition: all 0.2s ease;
   appearance: none;
 }
+.form-group input::placeholder,
+.form-group textarea::placeholder {
+  color: rgba(255,255,255,0.35);
+}
+.form-group input:focus,
+.form-group select:focus,
+.form-group textarea:focus {
+  border-color: var(--green);
+  background: rgba(5, 12, 8, 1);
+}
 .form-group input:focus,
 .form-group select:focus,
 .form-group textarea:focus { border-color: var(--green); }
