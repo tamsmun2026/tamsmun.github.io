@@ -300,7 +300,7 @@ h2 {
 .form-group input,
 .form-group select,
 .form-group textarea {
-  width: 100%; background: rgba(6, 16, 30, 0.8);
+  width: 100%; background: rgba(24, 52, 34, 0.72);
   border: 1px solid rgba(138, 155, 176, 0.2);
   color: var(--ivory); padding: 0.8rem 1rem;
   font-family: 'DM Sans', sans-serif; font-size: 0.92rem;
