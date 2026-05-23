@@ -211,7 +211,7 @@ h2 {
 .tl-content p { color: var(--muted); font-size: 0.9rem; line-height: 1.6; }
 .tl-badge {
   display: inline-block; margin-top: 0.6rem;
-  font-size: 0.7rem; font-family: 'DM Mono', monospace;
+  font-size: 0.7rem;   font-family: 'Inter', sans-serif;
   letter-spacing: 0.12em; text-transform: uppercase;
   padding: 0.25rem 0.7rem;
   border: 1px solid var(--border); color: var(--gold);
@@ -238,13 +238,13 @@ h2 {
 .committee-card:hover { border-color: rgba(201, 168, 76, 0.4); }
 .committee-card:hover::before { height: 100%; }
 .committee-acronym {
-  font-family: 'DM Mono', monospace;
+  font-family: 'Inter', sans-serif;
   font-size: 0.72rem; letter-spacing: 0.18em;
   text-transform: uppercase; color: var(--gold);
   margin-bottom: 0.8rem;
 }
 .committee-card h4 {
-  font-family: 'Playfair Display', serif;
+  font-family: 'Inter', sans-serif;
   font-size: 1.2rem; color: var(--ivory); margin-bottom: 0.7rem;
 }
 .committee-card p { color: var(--muted); font-size: 0.88rem; line-height: 1.6; }
@@ -260,7 +260,7 @@ h2 {
   gap: 5rem; align-items: start;
 }
 .register-info h3 {
-  font-family: 'Playfair Display', serif;
+  font-family: 'Inter', sans-serif;
   font-size: 1.6rem; color: var(--ivory); margin-bottom: 1.2rem;
 }
 .register-info p {
@@ -278,20 +278,20 @@ h2 {
 .fee-row:last-child { border-bottom: none; }
 .fee-row span:last-child {
   color: var(--gold); font-weight: 600;
-  font-family: 'DM Mono', monospace;
+  font-family: 'Inter', sans-serif;
 }
 .form-card {
   border: 1px solid var(--border); padding: 2.5rem;
   background: rgba(10, 22, 40, 0.7);
 }
 .form-title {
-  font-family: 'Playfair Display', serif;
+  font-family: 'Inter', sans-serif;
   font-size: 1.4rem; color: var(--ivory); margin-bottom: 2rem;
 }
 .form-group { margin-bottom: 1.4rem; }
 .form-group label {
   display: block; font-size: 0.78rem;
-  font-family: 'DM Mono', monospace; letter-spacing: 0.12em;
+    font-family: 'Inter', sans-serif; letter-spacing: 0.12em;
   text-transform: uppercase; color: var(--muted); margin-bottom: 0.5rem;
 }
 .form-group input,
@@ -330,7 +330,7 @@ h2 {
 .success-msg { display: none; text-align: center; padding: 2rem; }
 .success-msg.show { display: block; }
 .success-msg h3 {
-  font-family: 'Playfair Display', serif;
+  font-family: 'Inter', sans-serif;
   font-size: 1.6rem; color: var(--gold); margin-bottom: 1rem;
 }
 .success-msg p { color: var(--muted); line-height: 1.7; }
@@ -340,13 +340,13 @@ h2 {
 .papers-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 3rem; }
 .paper-step { display: flex; gap: 1.5rem; align-items: flex-start; }
 .step-num {
-  font-family: 'Playfair Display', serif;
+  font-family: 'Inter', sans-serif;
   font-size: 2.5rem; font-weight: 900;
   color: rgba(201, 168, 76, 0.2); line-height: 1;
   flex-shrink: 0; width: 50px;
 }
 .step-text h4 {
-  font-family: 'Playfair Display', serif;
+  font-family: 'Inter', sans-serif;
   font-size: 1.1rem; color: var(--ivory); margin-bottom: 0.5rem;
 }
 .step-text p { color: var(--muted); font-size: 0.9rem; line-height: 1.65; }
@@ -356,7 +356,7 @@ h2 {
   background: rgba(201, 168, 76, 0.03); margin-top: 1rem;
 }
 .requirements-box h4 {
-  font-family: 'Playfair Display', serif;
+  font-family: 'Inter', sans-serif;
   color: var(--gold); margin-bottom: 1.2rem; font-size: 1.1rem;
 }
 .req-list {
@@ -377,7 +377,7 @@ h2 {
   width: 100%; background: none; border: none;
   color: var(--ivory); text-align: left;
   padding: 1.5rem 0; cursor: pointer;
-  font-family: 'DM Sans', sans-serif;
+  font-family: 'Inter', sans-serif;
   font-size: 1rem; font-weight: 500;
   display: flex; justify-content: space-between; align-items: center;
   transition: color 0.2s;
