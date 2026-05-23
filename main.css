@@ -7,14 +7,17 @@
 
 /* ── DESIGN TOKENS ── */
 :root {
-  --navy:       #0a1628;
-  --deep:       #06101e;
-  --gold:       #c9a84c;
-  --gold-light: #e8c97a;
-  --ivory:      #f5f0e8;
-  --white:      #fefefe;
-  --muted:      #8a9bb0;
-  --border:     rgba(201, 168, 76, 0.2);
+  --navy:       #0f1720;
+  --deep:       #0a1118;
+
+  --green:      #8fae9d;
+  --green-light:#b8cbbf;
+
+  --ivory:      #edf2ee;
+  --white:      #ffffff;
+  --muted:      #93a29a;
+
+  --border:     rgba(143, 174, 157, 0.22);
 }
 
 /* ── RESET ── */
@@ -48,7 +51,7 @@ nav {
 .nav-logo {
   font-family: 'Inter', sans-serif;
   font-size: 1.1rem; font-weight: 700;
-  color: var(--gold); letter-spacing: 0.05em;
+  color: var(--green); letter-spacing: 0.05em;
 }
 .nav-logo span { color: var(--ivory); }
 .nav-links { display: flex; gap: 2.5rem; list-style: none; }
@@ -57,9 +60,9 @@ nav {
   font-size: 0.85rem; font-weight: 500; letter-spacing: 0.08em;
   text-transform: uppercase; transition: color 0.2s;
 }
-.nav-links a:hover { color: var(--gold); }
+.nav-links a:hover { color: var(--green); }
 .nav-cta {
-  background: var(--gold); color: var(--navy);
+  background: var(--green); color: var(--navy);
   border: none; padding: 0.6rem 1.4rem;
   font-family: 'Inter', sans-serif;
   font-weight: 600; font-size: 0.85rem;
@@ -67,7 +70,7 @@ nav {
   cursor: pointer; transition: background 0.2s;
   text-decoration: none;
 }
-.nav-cta:hover { background: var(--gold-light); }
+.nav-cta:hover { background: var(--green-light); }
 
 /* ── HERO ── */
 #hero {
@@ -95,7 +98,7 @@ nav {
 }
 .hero-tag::before {
   content: ''; display: block;
-  width: 32px; height: 1px; background: var(--gold);
+  width: 32px; height: 1px; background: var(--green);
 }
 h1 {
   font-family: 'Inter', sans-serif;
@@ -110,7 +113,7 @@ h1 {
   z-index: 2;
 }
 h1 em {
-  font-style: normal; color: var(--gold); display: block;
+  font-style: normal; color: var(--green); display: block;
 }
 .hero-sub {
   margin-top: 1.8rem; max-width: 480px;
@@ -126,7 +129,7 @@ h1 em {
   flex-wrap: wrap; position: relative;
 }
 .btn-primary {
-  background: var(--gold); color: var(--navy);
+  background: var(--green); color: var(--navy);
   padding: 1rem 2.4rem; font-weight: 700;
   font-size: 0.9rem; letter-spacing: 0.08em;
   text-transform: uppercase; border: none;
@@ -134,7 +137,7 @@ h1 em {
   text-decoration: none; display: inline-block;
 }
 .btn-primary:hover {
-  background: var(--gold-light);
+  background: var(--green-light);
   transform: translateY(-2px);
   box-shadow: 0 8px 24px rgba(201, 168, 76, 0.25);
 }
@@ -148,7 +151,7 @@ h1 em {
   text-decoration: none; display: inline-block;
 }
 .btn-outline:hover {
-  border-color: var(--gold); color: var(--gold);
+  border-color: var(--green); color: var(--green);
   transform: translateY(-2px);
 }
 
@@ -164,7 +167,7 @@ h2 {
 }
 .divider {
   width: 100%; height: 1px;
-  background: linear-gradient(90deg, var(--gold) 0%, transparent 60%);
+  background: linear-gradient(90deg, var(--green) 0%, transparent 60%);
   margin: 1.5rem 0 3rem;
 }
 
@@ -189,7 +192,7 @@ h2 {
 .tl-date {
   text-align: right; padding: 1.5rem 0;
   font-family: 'Inter', sans-serif;
-  font-size: 0.82rem; color: var(--gold);
+  font-size: 0.82rem; color: var(--green);
   letter-spacing: 0.06em; font-weight: 500;
   align-self: start; padding-top: 1.8rem;
 }
@@ -199,7 +202,7 @@ h2 {
 }
 .tl-dot {
   width: 10px; height: 10px;
-  background: var(--gold); border-radius: 50%;
+  background: var(--green); border-radius: 50%;
   margin-top: 2rem; flex-shrink: 0;
   box-shadow: 0 0 12px rgba(201, 168, 76, 0.5);
 }
@@ -214,7 +217,7 @@ h2 {
   font-size: 0.7rem;   font-family: 'Inter', sans-serif;
   letter-spacing: 0.12em; text-transform: uppercase;
   padding: 0.25rem 0.7rem;
-  border: 1px solid var(--border); color: var(--gold);
+  border: 1px solid var(--border); color: var(--green);
 }
 
 /* ── COMMITTEES ── */
@@ -232,7 +235,7 @@ h2 {
 .committee-card::before {
   content: '';
   position: absolute; top: 0; left: 0;
-  width: 3px; height: 0; background: var(--gold);
+  width: 3px; height: 0; background: var(--green);
   transition: height 0.3s;
 }
 .committee-card:hover { border-color: rgba(201, 168, 76, 0.4); }
@@ -240,7 +243,7 @@ h2 {
 .committee-acronym {
   font-family: 'Inter', sans-serif;
   font-size: 0.72rem; letter-spacing: 0.18em;
-  text-transform: uppercase; color: var(--gold);
+  text-transform: uppercase; color: var(--green);
   margin-bottom: 0.8rem;
 }
 .committee-card h4 {
@@ -277,7 +280,7 @@ h2 {
 }
 .fee-row:last-child { border-bottom: none; }
 .fee-row span:last-child {
-  color: var(--gold); font-weight: 600;
+  color: var(--green); font-weight: 600;
   font-family: 'Inter', sans-serif;
 }
 .form-card {
@@ -305,12 +308,12 @@ h2 {
 }
 .form-group input:focus,
 .form-group select:focus,
-.form-group textarea:focus { border-color: var(--gold); }
+.form-group textarea:focus { border-color: var(--green); }
 .form-group select option { background: var(--navy); }
 .form-group textarea { resize: vertical; min-height: 90px; }
 .form-row { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; }
 .form-submit {
-  width: 100%; background: var(--gold); color: var(--navy);
+  width: 100%; background: var(--green); color: var(--navy);
   border: none; padding: 1rem;
   font-family: 'DM Sans', sans-serif;
   font-weight: 700; font-size: 0.9rem;
@@ -318,7 +321,7 @@ h2 {
   cursor: pointer; transition: all 0.25s; margin-top: 0.5rem;
 }
 .form-submit:hover {
-  background: var(--gold-light);
+  background: var(--green-light);
   box-shadow: 0 6px 20px rgba(201, 168, 76, 0.3);
 }
 .form-note {
@@ -331,7 +334,7 @@ h2 {
 .success-msg.show { display: block; }
 .success-msg h3 {
   font-family: 'Inter', sans-serif;
-  font-size: 1.6rem; color: var(--gold); margin-bottom: 1rem;
+  font-size: 1.6rem; color: var(--green); margin-bottom: 1rem;
 }
 .success-msg p { color: var(--muted); line-height: 1.7; }
 
@@ -357,7 +360,7 @@ h2 {
 }
 .requirements-box h4 {
   font-family: 'Inter', sans-serif;
-  color: var(--gold); margin-bottom: 1.2rem; font-size: 1.1rem;
+  color: var(--green); margin-bottom: 1.2rem; font-size: 1.1rem;
 }
 .req-list {
   display: grid; grid-template-columns: 1fr 1fr;
@@ -367,7 +370,7 @@ h2 {
   color: var(--muted); font-size: 0.88rem;
   display: flex; align-items: center; gap: 0.6rem;
 }
-.req-list li::before { content: '—'; color: var(--gold); flex-shrink: 0; }
+.req-list li::before { content: '—'; color: var(--green); flex-shrink: 0; }
 
 /* ── FAQ ── */
 #faq { background: var(--deep); }
@@ -382,9 +385,9 @@ h2 {
   display: flex; justify-content: space-between; align-items: center;
   transition: color 0.2s;
 }
-.faq-q:hover { color: var(--gold); }
+.faq-q:hover { color: var(--green); }
 .faq-q .faq-icon {
-  font-size: 1.4rem; color: var(--gold);
+  font-size: 1.4rem; color: var(--green);
   transition: transform 0.3s; line-height: 1;
 }
 .faq-q.open .faq-icon { transform: rotate(45deg); }
