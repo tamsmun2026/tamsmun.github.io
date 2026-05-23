@@ -7,19 +7,19 @@
 
 /* ── DESIGN TOKENS ── */
 :root {
-  --navy:       #0f1720;
-  --deep:       #0a1118;
+  --navy:       #14211b;
+  --deep:       #0d1713;
 
-  --green:      #8fae9d;
-  --green-light:#b8cbbf;
+  --green:      #8fb59c;
+  --green-light:#b7d1bf;
 
-  --ivory:      #edf2ee;
+  --ivory:      #edf3ef;
   --white:      #ffffff;
-  --muted:      #93a29a;
 
-  --border:     rgba(143, 174, 157, 0.22);
+  --muted:      #9cad9f;
+
+  --border:     rgba(143, 181, 156, 0.18);
 }
-
 /* ── RESET ── */
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 html { scroll-behavior: smooth; }
@@ -89,10 +89,10 @@ nav {
   background:
     linear-gradient(
       to right,
-      rgba(6,16,30,0.97) 0%,
-      rgba(6,16,30,0.88) 45%,
-      rgba(6,16,30,0.55) 70%,
-      rgba(6,16,30,0.25) 100%
+      rgba(13,23,19,0.96) 0%,
+      rgba(13,23,19,0.86) 45%,
+      rgba(13,23,19,0.58) 70%,
+      rgba(13,23,19,0.28) 100%
     ),
     url("./images/modelun.jpg") center/cover no-repeat;
 }
@@ -229,8 +229,8 @@ h2 {
 }
 .committee-card {
   border: 1px solid var(--border); padding: 2rem;
-  background: rgba(6, 16, 30, 0.5);
-  transition: all 0.3s; position: relative; overflow: hidden;
+   background: rgba(20, 33, 27, 0.72);
+   transition: all 0.3s; position: relative; overflow: hidden;
 }
 .committee-card::before {
   content: '';
@@ -285,7 +285,7 @@ h2 {
 }
 .form-card {
   border: 1px solid var(--border); padding: 2.5rem;
-  background: rgba(10, 22, 40, 0.7);
+  background: background: rgba(20, 33, 27, 0.72);
 }
 .form-title {
   font-family: 'Inter', sans-serif;
