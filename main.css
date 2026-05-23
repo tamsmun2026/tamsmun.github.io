@@ -341,7 +341,6 @@ h2 {
 /* ── POSITION PAPERS ── */
 #papers { background: var(--navy); }
 .papers-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 3rem; }
-.paper-step { display: flex; gap: 1.5rem; align-items: flex-start; }
 
 .step-text h4 {
   font-family: 'Inter', sans-serif;
