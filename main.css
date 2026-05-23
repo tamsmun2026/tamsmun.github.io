@@ -300,11 +300,16 @@ h2 {
 .form-group input,
 .form-group select,
 .form-group textarea {
-  width: 100%; background: rgba(24, 52, 34, 0.72);
-  border: 1px solid rgba(138, 155, 176, 0.2);
-  color: var(--ivory); padding: 0.8rem 1rem;
-  font-family: 'DM Sans', sans-serif; font-size: 0.92rem;
-  outline: none; transition: border-color 0.2s; appearance: none;
+  width: 100%;
+  background: rgba(8, 18, 12, 0.95);
+  border: 1px solid rgba(143, 199, 162, 0.15);
+  color: var(--ivory);
+  padding: 0.8rem 1rem;
+  font-family: 'DM Sans', sans-serif;
+  font-size: 0.92rem;
+  outline: none;
+  transition: all 0.2s ease;
+  appearance: none;
 }
 .form-group input:focus,
 .form-group select:focus,
